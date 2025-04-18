@@ -113,7 +113,7 @@ const LeftSidebar = () => {
                 </Link>
               ))
             ) : (
-              <div className="flex justify-center items-center h-full">
+              <div className="flex justify-center items-center h-full" id="null">
                <DecryptedText
                      text={"Nothing Found!"}
                      className="text-2xl sm:text-3xl font-bold text-zinc-500"
